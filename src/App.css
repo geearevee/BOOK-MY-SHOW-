@@ -18,7 +18,7 @@ body {
     color: white;
 }
 #logo {
-    width: 200px;
+    width: 450px;
     height: auto;
     filter: invert(1);
     cursor: pointer;
@@ -160,28 +160,56 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px 60px;
-    background-color: #c9e6ff;
+    background-color: #364660;
 }
 .movie-card {
-    flex: 1 1 300px;
+    /* flex: 1 1 300px;
     border-radius: 8px;
     overflow: hidden;
     max-width: 300px;
-    min-width: 250px;
+    min-width: 250px; */
+    border-radius: 50px;
+background: linear-gradient(145deg, #313f56, #3a4b67);
+box-shadow:  41px 41px 91px #2e3c52,
+             -41px -41px 91px #3e516e;
+             height: max-content;
+    width: max-content;
+    position: relative;
 }
 
 .movie-card-img {
-    height: 500px;
-    width: 100%;
+    height: 450px;
+    width: 300px;
     object-fit: cover;
     display: block;
-    margin: 0 auto;
+    margin: 20px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.movie-card::before{
+    height: 450px;
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 20px;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.136);
+    color: white;
+    z-index: 0;
+    border-radius: 50px;
+}
+.movie-card:hover::before{
+    display: none;
 }
 .movie_details {
-    background-color: #5357a3;
+    /* background-color: #5357a3; */
     color: white;
     text-decoration: none;
     padding: 10px 10px;
+    text-align: center;
 }
 
 .movie-details-primary {

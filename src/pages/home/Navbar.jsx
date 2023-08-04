@@ -1,4 +1,4 @@
-import logo from "../../assets/logo_book_my_show.png";
+import logo from "../../assets/mbalogo.png";
 import searchIcon from "../../assets/search-interface-symbol.png";
 import heartIcon from "../../assets/heart.png";
 import { useEffect, useState } from "react";
