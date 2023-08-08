@@ -1,6 +1,6 @@
-import logo from "../../assets/mbalogo.png";
+import logo from "../../assets/4.png";
 import searchIcon from "../../assets/search-interface-symbol.png";
-import heartIcon from "../../assets/heart.png";
+import heartIcon from "../../assets/5.png";
 import { useEffect, useState } from "react";
 import useAppContext from "../../useAppContext";
 import { getMovieByGenre, getMoviesByQuery, getMovies } from "../../api";

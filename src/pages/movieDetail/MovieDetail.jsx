@@ -83,6 +83,15 @@ const MovieDetail = () => {
                                     {movie.vote_count} votes
                                 </span>
                             </h3>
+                            <div className="movie-details-secondary">
+                        <h2>About the movie</h2>
+                        <p className="movie-details-overview">
+                            {movie.overview}
+                        </p>
+                        <p className="movie-details-tagline">
+                            {movie.tagline}...
+                        </p>
+                    </div>
                             <p className="movie-details-in-theaters">
                                 2D, MX4D, 4DX, ICE, 2D SCREEN X, IMAX 2D
                             </p>
@@ -118,15 +127,7 @@ const MovieDetail = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="movie-details-secondary">
-                        <h1>About the movie</h1>
-                        <p className="movie-details-overview">
-                            {movie.overview}
-                        </p>
-                        <p className="movie-details-tagline">
-                            {movie.tagline}...
-                        </p>
-                    </div>
+                   
                 </>
             )}
         </div>

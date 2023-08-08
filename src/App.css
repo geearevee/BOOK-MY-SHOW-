@@ -18,9 +18,9 @@ body {
     color: white;
 }
 #logo {
-    width: 450px;
+    width: 200px;
     height: auto;
-    filter: invert(1);
+    /* filter: invert(1); */
     cursor: pointer;
     flex: 0 0 200px;
 }
@@ -33,6 +33,7 @@ body {
     padding: 0px 10px;
     flex: 1 1 400px;
     max-width: 500px;
+    margin-left: auto;
 }
 .primary-nav form img {
     width: 15px;
@@ -93,7 +94,7 @@ body {
     flex: 0 0 max-content;
 }
 .btn_whishList img {
-    width: 20px;
+    width: 38px;
     height: auto;
 }
 .secondary-nav {
@@ -213,13 +214,14 @@ box-shadow:  41px 41px 91px #2e3c52,
 }
 
 .movie-details-primary {
-    height: max(max-content, 100vh);
+    /* height: max(max-content, 100vh); */
     background-position: center;
     background-size: cover;
     display: flex;
     position: relative;
     padding: 60px 10%;
     gap: 30px;
+    height: calc(100vh - 154px);
     /* align-items: center; */
 }
 .movie-details-primary::before {
@@ -251,6 +253,9 @@ box-shadow:  41px 41px 91px #2e3c52,
     color: white;
 }
 
+.movie-details{
+    flex: 0 0 400px;
+}
 .movie-details-title {
     font-size: 32px;
 }
@@ -306,7 +311,7 @@ box-shadow:  41px 41px 91px #2e3c52,
 
 .movie-details-secondary {
     width: 80%;
-    margin: 30px auto;
+    /* margin: 0px auto; */
     font-weight: 500;
     font-size: 16px;
 }
@@ -470,6 +475,10 @@ box-shadow:  41px 41px 91px #2e3c52,
 }
 .proceed_checkout {
     color: #5357a3;
+    background-color: silver;
+    display: block;
+    margin: 0 auto ;
+    padding: 10px 15px;
 }
 .nav-primary-nav-buttons {
     display: flex;
