@@ -2,13 +2,13 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCCVSHQULtvGki32w_ZJkDZmE8cR1dsQFc",
-    authDomain: "bookmyshow-eaeeb.firebaseapp.com",
-    projectId: "bookmyshow-eaeeb",
-    storageBucket: "bookmyshow-eaeeb.appspot.com",
-    messagingSenderId: "443243667988",
-    appId: "1:443243667988:web:3d55fa5f2f3e465ada7d01",
-    measurementId: "G-HCQLFW8VSE",
+    apiKey: "AIzaSyBUKfW1ag76ZxMaUkxdVcStj2ZHCdmv940",
+    authDomain: "bookmyshow-b6b3c.firebaseapp.com",
+    projectId: "bookmyshow-b6b3c",
+    storageBucket: "bookmyshow-b6b3c.appspot.com",
+    messagingSenderId: "496161081764",
+    appId: "1:496161081764:web:867237deae305b87c01931",
+    measurementId: "G-108P3KWRGD"
 };
 
 // Initialize Firebase
